@@ -7,7 +7,7 @@ import axios from 'axios';
 
 function App() {
   const [tasksList, setTasksList] = useState([]);
-  const URL_BASE = 'http://localhost:8000/api/kanban';
+  const URL_BASE = 'https://examen-mern-hx9o.onrender.com/api/kanban';
 
   const addTask = (task) => {
     setTasksList([...tasksList, task]);
